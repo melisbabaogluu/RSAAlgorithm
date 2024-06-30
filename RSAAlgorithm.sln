@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHA256RSAApp", "ConsoleApp1\SHA256RSAApp.csproj", "{7109033D-E3F1-4E5E-89A1-5971F63D8C00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHA256RSA", "SHA256RSA\SHA256RSA.csproj", "{0E26DE25-9497-4BD2-9F5A-3C96111D16F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicPrivateKey", "PublicPrivateKey\PublicPrivateKey.csproj", "{A9CEDBF7-9A1C-45B1-9CC1-8DE74FD3B5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyWithSeedValue", "KeyWithSeedValue\KeyWithSeedValue.csproj", "{5D1F9E31-F5C4-4660-9F45-500657F78F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7109033D-E3F1-4E5E-89A1-5971F63D8C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7109033D-E3F1-4E5E-89A1-5971F63D8C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7109033D-E3F1-4E5E-89A1-5971F63D8C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7109033D-E3F1-4E5E-89A1-5971F63D8C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E26DE25-9497-4BD2-9F5A-3C96111D16F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E26DE25-9497-4BD2-9F5A-3C96111D16F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E26DE25-9497-4BD2-9F5A-3C96111D16F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E26DE25-9497-4BD2-9F5A-3C96111D16F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CEDBF7-9A1C-45B1-9CC1-8DE74FD3B5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CEDBF7-9A1C-45B1-9CC1-8DE74FD3B5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CEDBF7-9A1C-45B1-9CC1-8DE74FD3B5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CEDBF7-9A1C-45B1-9CC1-8DE74FD3B5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1F9E31-F5C4-4660-9F45-500657F78F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1F9E31-F5C4-4660-9F45-500657F78F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1F9E31-F5C4-4660-9F45-500657F78F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1F9E31-F5C4-4660-9F45-500657F78F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
